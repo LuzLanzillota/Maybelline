@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0;
+    overflow: hidden;
+    width: 200px;
+    margin: 5px;
+    border: none;
+    box-shadow: none;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding: 10px;
+    background-color: white;
+}
+
+.card-body {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #000000;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.card-text {
+    font-size: 0.8rem;
+    color: #000000;
+    margin: 2px 0 10px;
+}
+
+.card-price-container {
+    display: none; /* Ocultamos si no se usa */
+}
+
+.card-body a button {
+    display: none; /* Ocultamos botón para seguir look de catálogo estático */
+}
+.card-description {
+    font-size: 0.75rem;
+    color: #555;
+    margin-top: 8px;
+    line-height: 1.2;
+}

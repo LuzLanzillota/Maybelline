@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+
+body {
+    font-family: Kanit;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+}
+
+header img {
+    height: 80px;
+    margin-left: 40px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    white-space: nowrap;
+    font-size: 1rem;
+    transition: color 0.1s;
+}
+
+
+.navbar a:hover {
+    color: #F22570;
+}
+
+
+.right-img {
+    display: block;
+    max-width: 50px;
+    position: relative;
+}

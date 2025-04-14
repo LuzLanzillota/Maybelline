@@ -1,0 +1,47 @@
+.imagen-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagen-2 img {
+    margin-top: 100px;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagen-3 h1 {
+    font-size: 1rem;
+    margin-top: 150px;
+}
+.imagen-3 img{
+    width: 90%;
+    height: 100%;
+}
+.boton button {
+    margin: 70px;
+    margin-bottom: 150px;
+}
+
+.imagen-4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ver-producto{
+    position: absolute;
+    top: 100%;
+    left: 5%;
+}
+.ver-producto img {
+    width: 130px;
+}
+.mas-sobre-nosotros{
+    position: absolute;
+    top: 218%;
+    left: 85%;
+}
+.mas-sobre-nosotros{
+    width: 170px;
+}

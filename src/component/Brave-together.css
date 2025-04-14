@@ -1,0 +1,25 @@
+.imagen-6 img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-7 {
+    position: absolute;
+    top: 450%;
+    left: 1.2%;
+}
+.image-7 img{
+    width: 90%;
+    height: 100%;
+}
+.practica{
+    position: absolute;
+    top: 147%;
+    left: 45%;
+}
+.practica img {
+    width: 200px;
+}
