@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Carrusel.css";
 
 const imagenes = [
-    "./public/Images/ElyseFox.jpg",
-    "./public/Images/LarissaMay.jpg",
-    "./public/Images/StormReid.jpg"
+    "/Images/ElyseFox.jpg",
+    "/Images/LarissaMay.jpg",
+    "/Images/StormReid.jpg"
 ];
 
 function Carrusel() {

@@ -1,17 +1,27 @@
-import { useState } from "react";
 import Footer from "./Footer";
 import NavBar_reverse from "./NavBar_reverse";
 import "./sobrenosotros.css";
-
+import React, { useState, useEffect } from "react";
+import Loader from "./Loader";
 function Sobre() {
+    const [showLoader, setShowLoader] = useState(true);
 
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setShowLoader(false);
+        }, 1500);
+
+        return () => clearTimeout(timer);
+    }, []);
     return (
-        <div>
-            <div className="imagen-1">
-                <img src="./public/Images/SomosMaybelline.jpg" alt="imagen somos maybelline" />
-            </div>
+        <>
+            {showLoader && <Loader />}
+            <div>
+                <div className="imagen-1">
+                    <img src="/Images/SomosMaybelline.jpg" alt="imagen somos maybelline" />
+                </div>
 
-            <div className="video-container">
+                <div className="video-container">
 
                     <iframe
                         width="1000"
@@ -22,15 +32,16 @@ function Sobre() {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                     ></iframe>
-            </div>
+                </div>
 
-            <div className="imagen-5">
-                <img src="./public/Images/CreemosEn.png" alt="" />
-            </div>
+                <div className="imagen-5">
+                    <img src="/Images/CreemosEn.png" alt="" />
+                </div>
 
-            <NavBar_reverse />
-            <Footer />
-        </div>
+                <NavBar_reverse />
+                <Footer />
+            </div>
+        </>
     );
 }
 

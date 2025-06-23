@@ -10,8 +10,11 @@ function NavBar_reverse(props) {
                         <li><NavLink to="/">INICIO</NavLink></li>
                         <li><NavLink to="/productos">PRODUCTOS</NavLink></li>
                         <li><NavLink to="/sobrenosotros">SOBRE NOSOTROS</NavLink></li>
-                        <li><NavLink to="/brsvetogrther">BRAVE TOGETHER</NavLink></li>
+                        <li><NavLink to="/bravetogrther">BRAVE TOGETHER</NavLink></li>
                         {/* <li><NavLink to="/contacto">CONTACTO</NavLink></li> */}
+                        <li><NavLink to="/cart"></NavLink> </li>
+                        <li><NavLink to="/item"></NavLink></li>
+                        <li><NavLink to="/autocuidado"></NavLink></li>
                     </ul>
                 </nav>
             </div>
