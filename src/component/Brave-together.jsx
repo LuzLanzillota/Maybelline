@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
 import NavBar_reverse from "./NavBar_reverse";
 import './Brave-together.css';
@@ -26,8 +26,9 @@ function Brave(params) {
             <div className="imagen-6">
                 <img src="/Images/CuidaTuSaludMental.jpg" alt="" />
                 <div className="practica">
-                    <Link to="/autocuidado">
-                        <img src="/Images/practica.png" alt="" /></Link>
+                <NavLink to="/autocuidado"><img src="/Images/practica.png" alt="" /></NavLink>
+                    
+                        
                 </div>
             </div>
             <div className="imagen-1">

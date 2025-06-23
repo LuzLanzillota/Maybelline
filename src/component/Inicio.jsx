@@ -49,7 +49,11 @@ function Inicio() {
                 </div>
                 <div className="imagen-4">
                     <img src="/Images/BraveTogether_Inicio.jpg" alt="" />
-                    <div className="conoce-mas"><img src="\Images\conoce-mas.png" alt="" /></div>
+                    <div className="conoce-mas">
+                    <NavLink to="/bravetogrther">
+                        <img src="\Images\conoce-mas.png" alt="" />
+                        </NavLink>
+                        </div>
                     
                 </div>
                 <NavBar_reverse />

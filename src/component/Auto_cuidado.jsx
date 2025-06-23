@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import NavBar_reverse from "./NavBar_reverse";
 import './Auto_cuidado.css';
-import Carrusel from "./Carrusel";
+
 import React, { useState, useEffect } from "react";
 import Loader from "./Loader";
 function Autocuidado(params) {
