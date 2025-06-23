@@ -24,10 +24,12 @@
     margin-bottom: 150px;
 }
 
+
 .imagen-4 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
 }
 .ver-producto{
     position: absolute;
@@ -37,6 +39,11 @@
 .ver-producto img {
     width: 130px;
 }
+.conoce-mas{
+    position: absolute;
+    top: 440%;
+    left: 4%;
+}
 .mas-sobre-nosotros{
     position: absolute;
     top: 218%;
@@ -44,4 +51,10 @@
 }
 .mas-sobre-nosotros{
     width: 170px;
+}
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+    .imagen-4 img {
+        margin-bottom: -1px;
+    }
 }

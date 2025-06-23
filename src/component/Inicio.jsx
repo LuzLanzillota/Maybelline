@@ -49,6 +49,8 @@ function Inicio() {
                 </div>
                 <div className="imagen-4">
                     <img src="/Images/BraveTogether_Inicio.jpg" alt="" />
+                    <div className="conoce-mas"><img src="\Images\conoce-mas.png" alt="" /></div>
+                    
                 </div>
                 <NavBar_reverse />
                 <Footer />

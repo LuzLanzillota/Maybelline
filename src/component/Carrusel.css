@@ -51,3 +51,16 @@
     background-color: black;
     opacity: 1;
 }
+@media (min-width: 1024px) and (max-width: 1920px) {
+    .contenedor-carrusel {
+
+        height: 700px;
+    
+    }
+    .slide{
+        width: 90%;
+    }
+    .slide img{
+        width: 90%;
+    }
+}

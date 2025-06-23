@@ -23,3 +23,14 @@
 .practica img {
     width: 200px;
 }
+@media (min-width: 1024px) and (max-width: 1920px) {
+    .practica {
+        margin-top: 70px;
+    }
+    .imagen-1 img{
+        margin-bottom: -1px;
+    }
+    .image-7 {
+    margin-top: 10px;
+    }
+}

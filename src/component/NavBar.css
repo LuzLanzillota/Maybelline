@@ -6,14 +6,15 @@ body {
 
 header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
-    justify-content: center;
+    padding: 0 2rem;
 }
 
 header img {
     height: 80px;
-    margin-left: 40px;
+    display: block;
 
 }
 
@@ -21,8 +22,8 @@ header img {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    justify-content: center;
-    margin-left: 600px;
+    justify-content: space-between;
+
 }
 
 .navbar ul {

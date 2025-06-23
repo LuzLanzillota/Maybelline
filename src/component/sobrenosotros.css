@@ -7,3 +7,8 @@
     text-align: center;
     margin: 40px 0;
 }
+@media (min-width: 1024px) and (max-width: 1920px) {
+    .imagen-5 img {
+        margin-bottom: -1px;
+    }
+}
