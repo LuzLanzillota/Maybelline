@@ -44,17 +44,23 @@
     top: 440%;
     left: 4%;
 }
+.conoce-mas img{
+    width: 120px;
+}
 .mas-sobre-nosotros{
     position: absolute;
     top: 218%;
     left: 85%;
 }
-.mas-sobre-nosotros{
+.mas-sobre-nosotros img{
     width: 170px;
 }
 
-@media (min-width: 1024px) and (max-width: 1920px) {
+@media  (max-width: 1200px) {
     .imagen-4 img {
         margin-bottom: -1px;
+    }
+    .mas-sobre-nosotros{
+        margin-top: 90px;
     }
 }
