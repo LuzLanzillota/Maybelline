@@ -7,8 +7,17 @@
     text-align: center;
     margin: 40px 0;
 }
-@media (min-width: 1024px) and (max-width: 1920px) {
+@media (max-width: 1200px) {
     .imagen-5 img {
         margin-bottom: -1px;
     }
+}
+@media (min-width: 1201px) {
+    .imagen-5 img {
+        margin-bottom: -1px;
+    }
+    .video-container{
+        width: 100%;
+    }
+    
 }

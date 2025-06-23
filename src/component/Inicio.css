@@ -64,3 +64,14 @@
         margin-top: 90px;
     }
 }
+@media  (min-width: 1201px) {
+    .imagen-4 img {
+        margin-bottom: -1px;
+    }
+    .mas-sobre-nosotros{
+        margin-top: 90px;
+    }
+    .ver-producto  {
+        margin-top: 40px;
+    }
+}
